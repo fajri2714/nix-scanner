@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barcode Scanner - Nix</title>
+  <script type="module" src="./src/scanner.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+    #reader {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔍 Web Barcode & QR Scanner</h1>
+  <div id="reader"></div>
+  <div id="result">Silakan arahkan kamera ke barcode kecil</div>
+</body>
+</html>
